@@ -1,6 +1,6 @@
 ##### 1. Reading with read(), tell(), and seek() #####
 
-f = open('./File_Processing/Data/configuration.txt', 'rt')
+f = open('File_Processing/Data/configuration.txt', 'rt')
 content = f.read()
 f.seek(0)  # Reset the file pointer to the beginning
 content = f.read(19)  # Now it reads the first 19 characters
@@ -24,7 +24,7 @@ f.close()
 
 ##### 2. Using seek() to read the file multiple times #####
 
-f = open('./File_Processing/Data/configuration.txt', 'r')
+f = open('File_Processing/Data/configuration.txt', 'r')
 print(f.read())
 print("#" * 50)
 
@@ -39,7 +39,7 @@ f.close()
 
 ##### 3. Using with open() and checking if the file is closed #####
 
-with open('./File_Processing/Data/configuration.txt') as file:
+with open('File_Processing/Data/configuration.txt') as file:
     content = file.read() 
     print(content)
 

@@ -1,4 +1,4 @@
-with open('./File_Processing/Data/devices.txt') as f:
+with open('File_Processing/Data/devices.txt') as f:
     content = f.read().splitlines()
     print(content)
     devices = list()

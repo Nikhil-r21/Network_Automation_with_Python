@@ -1,5 +1,5 @@
 import csv
-with open('./File_Processing/Data/airtravel.csv', 'r') as f:
+with open('File_Processing/Data/airtravel.csv', 'r') as f:
     reader = csv.reader(f)
     next(reader)
     year_1958 = dict()
