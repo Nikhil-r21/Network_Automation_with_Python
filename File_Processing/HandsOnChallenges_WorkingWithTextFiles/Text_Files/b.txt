@@ -1,0 +1,2 @@
+The code then iterates through both lists of lines simultaneously using the zip() function, which pairs corresponding lines from each file. For each line pair, it checks if the lines are different. 
+If they are, it prints the line number along with the differing content from both files, highlighting discrepancies between them.

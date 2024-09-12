@@ -1,0 +1,3 @@
+The code reads the contents of two text files, file1.txt and file2.txt, line by line using the readlines() method. 
+It stores the lines from each file in separate lists, file1_lines and file2_lines. 
+This approach ensures that each line from both files is available for comparison in a structured format.
